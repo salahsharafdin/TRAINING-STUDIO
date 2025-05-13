@@ -633,7 +633,7 @@ footer a {
 @media(max-width: 768px) {
 
   * {
-    p
+    padding: 0;
   }
 
 
