@@ -9,7 +9,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
 }
 
 em {
@@ -27,7 +26,7 @@ header {
 }
 
 .container {
-   width: min(90%, 1120px);
+   width: min(80%, 1120px);
    margin-inline: auto;
 }
 
@@ -631,9 +630,13 @@ footer a {
 }
 
 
-@media(max-width:768px) {
+@media(max-width: 768px) {
 
-  
+  * {
+    p
+  }
+
+
   .hamburger {
       display: flex;
       justify-content: center;
@@ -646,11 +649,17 @@ footer a {
   }
 
   video {
-    min-height: 100vh;
+    height: 100vh;
   }
 
-  .content {
-    width: 100%;
+  .content h2{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 77px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    
   }
 
 
@@ -667,6 +676,9 @@ footer a {
       align-items: center;
       background-color: #edf2fa;
       padding: 30px;
+      }
+      .mobile-logo h1 {
+        padding: 10px;
       }
 
 
