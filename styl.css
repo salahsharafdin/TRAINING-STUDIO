@@ -596,6 +596,14 @@ footer a {
   text-decoration: none;
 }
 
+
+@media (min-width: 769px) {
+  video {
+    height: 1367.67px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -723,15 +731,15 @@ footer a {
     height: 100%;
   }
 
-  
   input {
     display: flex;
     width: 100%;
   }
 }
+
+
 @media (max-width: 524px) {
   .form-btn {
     width: 40%;
   }
-  
 }
